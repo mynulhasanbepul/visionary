@@ -50,3 +50,14 @@
     background: #fff;
 }
 /* header end */
+/* services :start */
+.services{
+    background: #F8F4F0;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.services .btn-success:hover{
+    color: #007A56;
+    background: #fff;
+}
+/* services :end */
