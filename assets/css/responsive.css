@@ -1,0 +1,8 @@
+@media (min-width: 0px), (max-width:767px){
+    .navbar .secondbutton{
+        display: inline-block;
+    }
+    .navbar .fastbutton{
+        display: inline-block;
+    }
+} 

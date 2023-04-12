@@ -1,0 +1,52 @@
+/* navbar start */
+.navbar .brandicon{
+    width: 20px;
+    height: 20px;
+}
+.navbar .navbar-nav .nav-item .active{
+    color: #007A56;
+}
+.navbar-nav .nav-link:hover{
+    text-decoration: underline;
+    color: #007A56;
+}
+/* button start */
+.navbar .fastbutton{
+    color: #007A56;
+    background: #fff;
+}
+.navbar .fastbutton:hover{
+    color: #fff;
+    background:#007A56;
+}
+.navbar .secondbutton{
+    color: #fff;
+    background:#007A56;
+    
+}
+.navbar .secondbutton:hover{
+    color: #007A56;
+    background: #fff;
+}
+/* button end */
+/* navbar end */
+/* header start */
+/* button */
+.header .secondbutton{
+    color: #007A56;
+    background: #fff;
+}
+.header .secondbutton:hover{
+    color: #fff;
+    background:#007A56;
+}
+.header .fastbutton{
+    color: #fff;
+    background:#007A56;
+    
+}
+.header .fastbutton:hover{
+    color: #007A56;
+    background: #fff;
+}
+/* header end */
