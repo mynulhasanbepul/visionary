@@ -66,6 +66,27 @@
 /* important :start */
 .important {
     background: #F8F4F0;
-
 }
 /*important :end */
+/* Subscribe start */
+
+.Subscribe .form-control{
+    width: 300px;
+    display: inline;
+    padding-top: 1px;
+}
+.Subscribe .btn-primary{
+    height: 58px;
+    padding-top: 5px;
+    background: #007A56;
+    border: 1px solid #007A56;
+}
+.Subscribe .btn-primary:hover{
+    color: #007A56;
+    background: #fff;
+    border: 1px solid #007A56;
+}
+.Subscribe .need_section{
+    max-width: 500px;
+}
+/* Subscribe end */
