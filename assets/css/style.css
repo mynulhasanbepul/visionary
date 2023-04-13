@@ -31,7 +31,7 @@
 /* button end */
 /* navbar end */
 /* header start */
-/* button */
+/* button start*/
 .header .secondbutton{
     color: #007A56;
     background: #fff;
@@ -90,3 +90,18 @@
     max-width: 500px;
 }
 /* Subscribe end */
+/* footer :start */
+.footer{
+    background: #0A1D32;
+    color: #fff;
+}
+.footer .brandicon{
+    width: 25px;
+    height: 25px;
+}
+.footer a{
+    color: #fff;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+/* footer :end */
