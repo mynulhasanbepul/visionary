@@ -56,8 +56,16 @@
     margin-top: 50px;
     padding-top: 50px;
 }
-.services .btn-success:hover{
+.services .btn-success:hover,
+.news_section .newsbutton .btn-success:hover,
+.about-us .aboutbutton .btn-success:hover{
     color: #007A56;
     background: #fff;
 }
 /* services :end */
+/* important :start */
+.important {
+    background: #F8F4F0;
+
+}
+/*important :end */
