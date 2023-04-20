@@ -10,6 +10,7 @@
     --btn-padding: 10px 65px;
 }
 /* navbar start */
+
 .navbar .brandicon{
     width: 20px;
     height: 20px;
@@ -17,28 +18,43 @@
 .navbar .navbar-nav .nav-item .active{
     color: var(--brand-color);
 }
+.nav-item{
+    display: inline-block;
+    position: relative;
+    transition: .5s linear;
+}
+.navbar-nav{
+    display: inline-block;
+}
 .navbar-nav .nav-link:hover{
-    text-decoration: underline;
     color: var(--brand-color);
 }
+.nav-item:hover::after{
+    content:"";
+    position: absolute;
+    left: 5px;
+    bottom: 0px;
+    width: 90%;
+    height: 3px;
+    background: var(--brand-color);
+}
 /* button start */
-.navbar .fastbutton{
+.navbar .btn-success{
     color:var(--brand-color);
     background:var(--color-white);
 }
-.navbar .fastbutton:hover{
+ .navbar .btn-success:hover{
     color: var(--color-white);
     background:var(--brand-color);
 }
-.navbar .secondbutton{
+.navbar .btn-success:last-child {
     color: var(--color-white);
     background:var(--brand-color);
-    
 }
-.navbar .secondbutton:hover{
+.navbar .btn-success:last-child:hover{
     color: var(--brand-color);
     background:var(--color-white);
-}
+} 
 /* button end */
 /* navbar end */
 /* header start */

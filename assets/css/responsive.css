@@ -1,8 +1,11 @@
-@media (min-width: 0px) and (max-width:767px) {
-    .navbar .secondbutton{
-        display: inline-block;
-    }
-    .navbar .fastbutton{
-        display: inline-block;
-    }
-} 
+@media ( min-width: 768px ) {
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+      }
+      
+      .dropdown>.dropdown-toggle:active {
+        /*Without this, clicking will make it sticky*/
+          pointer-events: none;
+      }
+      
+}
