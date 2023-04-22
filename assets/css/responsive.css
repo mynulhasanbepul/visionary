@@ -1,3 +1,5 @@
+/* navbar dropdown start */
+
 @media ( min-width: 768px ) {
     .dropdown:hover>.dropdown-menu {
         display: block;
@@ -9,3 +11,4 @@
       }
       
 }
+/* navbar dropdown end */

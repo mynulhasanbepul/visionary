@@ -10,7 +10,6 @@
     --btn-padding: 10px 65px;
 }
 /* navbar start */
-
 .navbar .brandicon{
     width: 20px;
     height: 20px;
@@ -59,22 +58,22 @@
 /* navbar end */
 /* header start */
 /* button start*/
-.header .secondbutton{
+.header .btn-success:last-child{
     color: var(--brand-color);
     background: var(--color-white);
     
 }
-.header .secondbutton:hover{
+.header .btn-success:last-child:hover{
     color:var(--color-white);
     background:var(--brand-color);
 }
     
-.header .fastbutton{
+.header .btn-success{
     color:var(--color-white);
     background:var(--brand-color);
     
 }
-.header .fastbutton:hover{
+.header .btn-success:hover{
     color: var(--brand-color);
     background: var(--color-white);
 }
