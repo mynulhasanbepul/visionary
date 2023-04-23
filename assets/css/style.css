@@ -38,19 +38,19 @@
     background: var(--brand-color);
 }
 /* button start */
-.navbar .btn-success{
+.navbar .nav_button .fastbutton{
     color:var(--brand-color);
     background:var(--color-white);
 }
- .navbar .btn-success:hover{
+ .navbar .nav_button .fastbutton:hover{
     color: var(--color-white);
     background:var(--brand-color);
 }
-.navbar .btn-success:last-child {
+.navbar .nav_button .secondbutton:last-child {
     color: var(--color-white);
     background:var(--brand-color);
 }
-.navbar .btn-success:last-child:hover{
+.navbar .nav_button .secondbutton:last-child:hover{
     color: var(--brand-color);
     background:var(--color-white);
 } 
@@ -58,26 +58,32 @@
 /* navbar end */
 /* header start */
 /* button start*/
-.header .btn-success:last-child{
+.header .last_button{
     color: var(--brand-color);
     background: var(--color-white);
     
 }
-.header .btn-success:last-child:hover{
+.header .last_button:hover{
     color:var(--color-white);
     background:var(--brand-color);
 }
     
-.header .btn-success{
+.header .fast_button{
     color:var(--color-white);
     background:var(--brand-color);
     
 }
-.header .btn-success:hover{
+.header .fast_button:hover{
     color: var(--brand-color);
     background: var(--color-white);
 }
-
+.visionary_img .img-fluid{
+    transition: 1s linear;
+}
+.visionary_img .img-fluid:hover{
+    cursor: pointer;
+    transform: skew(-5deg);
+}
 /* header end */
 /* services :start */
 .services{
@@ -86,12 +92,50 @@
     padding-top: 50px;
 }
 .services .btn-success:hover,
-.news_section .newsbutton .btn-success:hover,
-.about-us .aboutbutton .btn-success:hover{
+.news_section .newsbutton .btn-success:hover{
+
     color: var(--brand-color);
     background: var(--color-white);
 }
+.service_img .img-fluid{
+    transition: 1s linear;
+}
+.service_img .img-fluid:hover{
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+}
+.service_img{
+    overflow: hidden;
+    border-radius: 15px;
+}
 /* services :end */
+/* adout_ section :start */
+.about_us a.btn-success{
+    color:var(--color-white);
+    background:var(--brand-color);
+}
+.about_us a.btn-success:hover{
+    color: var(--brand-color);
+    background: var(--color-white);
+}
+.about_us .img-fluid{
+    transition: 1s linear;
+}
+.about_us .img-fluid:hover{
+    cursor: pointer;
+    transform: matrix(1, 0, 0.5, 1, 150, 0);
+}
+/* adout_ section :end */
+/* news_section :start */
+.news_section .news_img{
+    transition: 1s linear;
+}
+.news_section .news_img:hover{
+    cursor: pointer;
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+/* news_section :end */
 /* important :start */
 .important {
     background: var(--primary-color);
