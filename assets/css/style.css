@@ -1,7 +1,7 @@
 /* common selector start */
 
 :root {
-    --brand-color: #007A56;
+    --brand-color: #067B57;
     --primary-color:  #F8F4F0;
     --Secondary-color:  #3C8D53;
     --color-white: #fff;
@@ -41,6 +41,7 @@
 .navbar .nav_button .fastbutton{
     color:var(--brand-color);
     background:var(--color-white);
+    border-color: var(--brand-color);
 }
  .navbar .nav_button .fastbutton:hover{
     color: var(--color-white);
@@ -49,6 +50,7 @@
 .navbar .nav_button .secondbutton:last-child {
     color: var(--color-white);
     background:var(--brand-color);
+    border-color: var(--brand-color);
 }
 .navbar .nav_button .secondbutton:last-child:hover{
     color: var(--brand-color);
@@ -61,7 +63,7 @@
 .header .last_button{
     color: var(--brand-color);
     background: var(--color-white);
-    
+    border-color: var(--brand-color);
 }
 .header .last_button:hover{
     color:var(--color-white);
@@ -71,7 +73,7 @@
 .header .fast_button{
     color:var(--color-white);
     background:var(--brand-color);
-    
+    border-color: var(--brand-color);
 }
 .header .fast_button:hover{
     color: var(--brand-color);
@@ -90,6 +92,11 @@
     background:var(--primary-color);
     margin-top: 50px;
     padding-top: 50px;
+}
+.services .btn-success{
+    color:var(--color-white);
+    background:var(--brand-color);
+    border-color: var(--brand-color);
 }
 .services .btn-success:hover,
 .news_section .newsbutton .btn-success:hover{
@@ -113,6 +120,7 @@
 .about_us a.btn-success{
     color:var(--color-white);
     background:var(--brand-color);
+    border-color: var(--brand-color);
 }
 .about_us a.btn-success:hover{
     color: var(--brand-color);
@@ -134,7 +142,11 @@
     cursor: pointer;
     transform: matrix(1, -0.3, 0, 1, 0, 0);
 }
-
+.news_section .newsbutton .btn-success{
+    color:var(--color-white);
+    background:var(--brand-color);
+    border-color: var(--brand-color);
+}
 /* news_section :end */
 /* important :start */
 .important {
