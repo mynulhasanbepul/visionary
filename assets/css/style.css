@@ -177,6 +177,19 @@
     max-width: 500px;
 }
 /* Subscribe end */
+/* counter start */
+.counter_section{
+    max-height: 150px;
+    background: var(--brand-color);
+
+}
+.counter_section .point_section{
+    background-color: var(--primary-color);
+    width: 150px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+/* counter end */
 /* footer :start */
 .footer{
     background: var(--color-dark);
