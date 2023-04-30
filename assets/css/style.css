@@ -185,6 +185,7 @@
 }
 .counter_section .point_section{
     background-color: var(--primary-color);
+    border-radius: 10px;
     width: 150px;
     margin-left: 80px;
     margin-right: 80px;
