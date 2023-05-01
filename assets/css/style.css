@@ -180,13 +180,15 @@
 /* counter start */
 .counter_section{
     max-height: 150px;
+    max-width: auto;
     background: var(--brand-color);
 
 }
 .counter_section .point_section{
     background-color: var(--primary-color);
     border-radius: 10px;
-    width: 150px;
+    max-width: 150px;
+    max-height: auto;
     margin-left: 80px;
     margin-right: 80px;
 }
